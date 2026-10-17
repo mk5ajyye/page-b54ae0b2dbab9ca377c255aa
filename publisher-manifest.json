@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "b341344cdaa9cd3dd619a5bf",
+  "owner": "mk5ajyye",
+  "repo": "page-b54ae0b2dbab9ca377c255aa",
+  "title": "AA",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "b54ae0b2dbab9ca377c255aa",
+      "a": "AA",
+      "b": "",
+      "entity": "AA",
+      "brand": "AA",
+      "separator": "",
+      "path": "index.html",
+      "hash": "f9439faa1ff1d2c847616b12a4b4b22031169687183901348d6eb70f2c9ab18c",
+      "content": {
+        "keyword1": "AA",
+        "keyword2": "",
+        "primary_entity": "AA",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "AA 提供简洁高效的网络代理连接服务，助力用户稳定访问全球网络，保障数据传输安全流畅。",
+          "AI_DESCRIPTION": "AA 提供简洁高效的网络代理连接服务，助力用户稳定访问全球网络，保障数据传输安全流畅。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n:root {--bg-color: #FFFDF0;--primary-color: #12372A;--accent-color: #436850;--card-bg: #FFFFFF;--text-main: #12372A;--text-muted: #527853;--border-radius: 16px;--shadow: 0 12px 32px rgba(18, 55, 42, 0.08)}\n* {box-sizing: border-box;margin: 0;padding: 0}\nbody {background-color: var(--bg-color);color: var(--text-main);font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;line-height: 1.6;padding: 0}\nmain {max-width: 1200px;margin: 0 auto;padding: 40px 24px}\n.hero-section {display: grid;grid-template-columns: 280px 1fr;gap: 48px;align-items: start;margin-bottom: 80px}\n@media (max-width: 768px) {\n  .hero-section {grid-template-columns: 1fr;gap: 32px}\n}\n.hero-left {position: sticky;top: 40px}\n.brand-title {font-size: 3.5rem;font-weight: 800;letter-spacing: -1px;margin-bottom: 16px;color: var(--primary-color)}\n.hero-subtitle {font-size: 1.1rem;color: var(--text-muted);margin-bottom: 32px}\n.anchor-nav {display: flex;flex-direction: column;gap: 12px}\n.anchor-link {text-decoration: none;color: var(--primary-color);font-weight: 600;font-size: 0.95rem;padding: 8px 12px;border-radius: 8px;transition: background 0.2s}\n.anchor-link:hover {background-color: rgba(67, 104, 80, 0.1)}\n.hero-right {padding-left: 24px;border-left: 2px solid rgba(18, 55, 42, 0.1)}\n@media (max-width: 768px) {\n  .hero-right {padding-left: 0;border-left: none;border-top: 2px solid rgba(18, 55, 42, 0.1);padding-top: 24px}\n}\n.hero-headline {font-size: 2.2rem;font-weight: 700;margin-bottom: 24px;line-height: 1.3}\n.hero-desc {font-size: 1.1rem;color: var(--text-muted);margin-bottom: 32px}\n.section {margin-bottom: 80px}\n.section-title {font-size: 1.8rem;font-weight: 700;margin-bottom: 32px;color: var(--primary-color)}\n.plans-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));gap: 24px}\n.plan-card {background: var(--card-bg);border-radius: var(--border-radius);padding: 32px;box-shadow: var(--shadow);position: relative;display: flex;flex-direction: column;justify-content: space-between}\n.plan-card.featured {border: 2px solid var(--accent-color)}\n.badge {position: absolute;top: -12px;right: 24px;background: var(--accent-color);color: var(--bg-color);font-size: 0.75rem;font-weight: 700;padding: 4px 12px;border-radius: 20px;text-transform: uppercase}\n.plan-name {font-size: 1.25rem;font-weight: 700;margin-bottom: 8px}\n.plan-price {font-size: 2rem;font-weight: 800;color: var(--primary-color);margin-bottom: 4px}\n.plan-annual {font-size: 0.85rem;color: var(--text-muted);margin-bottom: 24px}\n.plan-features {list-style: none;margin-bottom: 32px}\n.plan-features li {font-size: 0.95rem;padding: 8px 0;border-bottom: 1px solid rgba(18, 55, 42, 0.05);color: var(--text-main)}\n.plan-features li:last-child {border-bottom: none}\n.btn {display: block;width: 100%;text-align: center;background: var(--primary-color);color: var(--bg-color);padding: 12px 24px;border-radius: 8px;text-decoration: none;font-weight: 650;transition: opacity 0.2s}\n.btn:hover {opacity: 0.9}\n.features-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));gap: 24px}\n.feature-card {background: var(--card-bg);padding: 24px;border-radius: var(--border-radius);box-shadow: var(--shadow)}\n.feature-card h3 {font-size: 1.1rem;margin-bottom: 12px;color: var(--primary-color)}\n.feature-card p {color: var(--text-muted);font-size: 0.95rem}\n.faq-container {display: flex;flex-direction: column;gap: 20px}\n.chat-bubble {background: var(--card-bg);padding: 20px 24px;border-radius: var(--border-radius);box-shadow: var(--shadow);max-width: 80%}\n.chat-bubble.question {align-self: flex-start;border-bottom-left-radius: 4px}\n.chat-bubble.answer {align-self: flex-end;background: var(--primary-color);color: var(--bg-color);border-bottom-right-radius: 4px}\n.chat-bubble h4 {font-size: 1rem;margin-bottom: 8px;font-weight: 700}\n.chat-bubble p {font-size: 0.95rem}\nfooter {text-align: center;padding: 40px 0;color: var(--text-muted);font-size: 0.85rem;border-top: 1px solid rgba(18, 55, 42, 0.1);margin-top: 80px}\n</style><main>\n  <section class=\"hero-section\">\n    <div class=\"hero-left\">\n      <h1 class=\"brand-title\">AA</h1>\n      <p class=\"hero-subtitle\">稳定连接，自由访问。</p>\n      <nav class=\"anchor-nav\">\n        <a class=\"anchor-link\" href=\"#plans\">服务套餐</a>\n        <a class=\"anchor-link\" href=\"#features\">核心优势</a>\n        <a class=\"anchor-link\" href=\"#faq\">常见问题</a>\n      </nav>\n    </div>\n    <div class=\"hero-right\">\n      <h2 class=\"hero-headline\">现代网络代理与连接管理服务方案</h2>\n      <p class=\"hero-desc\">AA 致力于为注重效率与安全的用户提供高品质的节点中转与加速服务。清晰的架构，极简的交互，保障每一次数据传输顺畅无阻。</p>\n      <a href=\"#plans\" class=\"btn\">查看可用套餐</a>\n    </div>\n  </section>\n\n  <section id=\"plans\" class=\"section\">\n    <h2 class=\"section-title\">灵活的套餐选择</h2>\n    <div class=\"plans-grid\">\n      <div class=\"plan-card\">\n        <div>\n          <h3 class=\"plan-name\">基础版</h3>\n          <div class=\"plan-price\">¥15/月</div>\n          <div class=\"plan-annual\">按年付仅需 ¥150/年</div>\n          <ul class=\"plan-features\">\n            <li>每月 100GB 极速流量</li>\n            <li>支持 3 台设备同时在线</li>\n            <li>解锁基础流媒体</li>\n            <li>普通线路节点池</li>\n          </ul>\n        </div>\n        <a href=\"#\" class=\"btn\">立即订阅</a>\n      </div>\n      <div class=\"plan-card featured\">\n        <div class=\"badge\">推荐</div>\n        <div>\n          <h3 class=\"plan-name\">旗舰版</h3>\n          <div class=\"plan-price\">¥35/月</div>\n          <div class=\"plan-annual\">按年付仅需 ¥350/年</div>\n          <ul class=\"plan-features\">\n            <li>每月 300GB 极速流量</li>\n            <li>支持 5 台设备同时在线</li>\n            <li>全节点原生流媒体解锁</li>\n            <li>IPLC 专线游戏加速优化</li>\n            <li>7x24 优先工单支持</li>\n          </ul>\n        </div>\n        <a href=\"#\" class=\"btn\">立即订阅</a>\n      </div>\n      <div class=\"plan-card\">\n        <div>\n          <h3 class=\"plan-name\">团队版</h3>\n          <div class=\"plan-price\">¥85/月</div>\n          <div class=\"plan-annual\">按年付仅需 ¥850/年</div>\n          <ul class=\"plan-features\">\n            <li>每月 1000GB 极速流量</li>\n            <li>支持 20 台设备同时在线</li>\n            <li>VIP 专属高带宽节点</li>\n            <li>支持企业定制路由</li>\n            <li>专属客户经理服务</li>\n          </ul>\n        </div>\n        <a href=\"#\" class=\"btn\">立即订阅</a>\n      </div>\n    </div>\n  </section>\n\n  <section id=\"features\" class=\"section\">\n    <h2 class=\"section-title\">核心技术特性</h2>\n    <div class=\"features-grid\">\n      <div class=\"feature-card\">\n        <h3>多端兼容</h3>\n        <p>全面适配主流操作系统与各类第三方客户端，配置简便，一键导入。</p>\n      </div>\n      <div class=\"feature-card\">\n        <h3>优质线路</h3>\n        <p>精选骨干网直连与专线节点，降低延迟，保障高负载下的稳定性。</p>\n      </div>\n      <div class=\"feature-card\">\n        <h3>安全加密</h3>\n        <p>采用高强度传输加密协议，有效防止隐私泄露，确保通信安全。</p>\n      </div>\n    </div>\n  </section>\n\n  <section id=\"faq\" class=\"section\">\n    <h2 class=\"section-title\">常见问题解答</h2>\n    <div class=\"faq-container\">\n      <div class=\"chat-bubble question\">\n        <h4>如何开始使用 AA 的服务？</h4>\n        <p>注册账户后，选择适合您的套餐并完成订购，随后在后台获取订阅链接并导入至您常用的客户端即可。</p>\n      </div>\n      <div class=\"chat-bubble answer\">\n        <h4>支持在多少台设备上同时使用？</h4>\n        <p>设备在线数量根据您所选的套餐而定。基础版支持 3 台，旗舰版支持 5 台，团队版支持 20 台设备同时在线。</p>\n      </div>\n      <div class=\"chat-bubble question\">\n        <h4>流量额度是如何计算与重置的？</h4>\n        <p>所有套餐的流量均按自然月度周期进行重置，未使用完的流量不累积到下一个计费周期。</p>\n      </div>\n      <div class=\"chat-bubble answer\">\n        <h4>遇到连接异常或节点超时怎么办？</h4>\n        <p>请先尝试更新订阅链接以获取最新可用节点。若问题依旧，可随时通过用户后台提交工单联系技术支持。</p>\n      </div>\n    </div>\n  </section>\n\n  <footer>\n    <p>© 2026 AA. All rights reserved.</p>\n  </footer>\n</main>",
+          "hash": "9b531015893650d38215c8381db97f070cf8cbfa4582e2f1d35c0d0e2d6873b9",
+          "seo": {
+            "title": "AA - 高效网络代理服务与连接管理",
+            "keywords": "AA, 网络代理, 节点加速, 连接管理, 专线服务",
+            "description": "AA 提供简洁高效的网络代理连接服务，助力用户稳定访问全球网络，保障数据传输安全流畅。"
+          },
+          "provider": "grok",
+          "model": "gemini-3.7-flash",
+          "design": {
+            "no": "6974",
+            "hero": "7 窄栏居左配大面积留白",
+            "palette": "5 奶油黄配墨绿",
+            "nav": "3 首屏内嵌锚点标签",
+            "card": "3 大圆角软阴影",
+            "plans_view": "5 两栏对照配推荐标记",
+            "faq_view": "5 对话气泡式问答",
+            "tone": "3 简洁利落的短句",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "axvas.cn",
+    "host": "p-8b61cd61e4.axvas.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "f46c54a55eec516a4b90d1662421bff25dbbb18f4d53fc3f9698260d9b171c3c",
+    "sitemap.xml": "8147cf900abe3135c1b3813be4e028f1be7499375be8b3f3beafbcc945345795",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "1a9cc4ee496289ae96e78df631c92474abc2a0fba79c77dbe196d15663bf1b9c",
+    "robots.txt": "0700d3c719225e989296d2b29d94110dc5e7888d62af24be82590d160eaf7613",
+    "694f36b3365c3b3c113773e32b57ace7.txt": "35b7c26ff643f4782f940121f9a61a1019a5543bd9a536c23e409fe3aff99882"
+  },
+  "revision": "4f3be97736613e9c2d5d8f431214fc9bf6280aa78be30594aa939f4bf84896e7"
+}

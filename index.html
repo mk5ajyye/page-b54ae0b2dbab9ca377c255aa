@@ -1,0 +1,159 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>AA - 高效网络代理服务与连接管理</title><meta name="description" content="AA 提供简洁高效的网络代理连接服务，助力用户稳定访问全球网络，保障数据传输安全流畅。"><meta name="keywords" content="AA, 网络代理, 节点加速, 连接管理, 专线服务"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-8b61cd61e4.axvas.cn/"><meta property="og:type" content="website"><meta property="og:title" content="AA - 高效网络代理服务与连接管理"><meta property="og:description" content="AA 提供简洁高效的网络代理连接服务，助力用户稳定访问全球网络，保障数据传输安全流畅。"><meta property="og:url" content="https://p-8b61cd61e4.axvas.cn/"><meta property="og:site_name" content="AA"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-8b61cd61e4.axvas.cn/", "name": "AA - 高效网络代理服务与连接管理", "description": "AA 提供简洁高效的网络代理连接服务，助力用户稳定访问全球网络，保障数据传输安全流畅。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="b54ae0b2dbab9ca377c255aa:f9439faa1ff1d2c847616b12a4b4b22031169687183901348d6eb70f2c9ab18c:9e6d91d73b86ace1d338"></head><body id="top"><style>
+:root {--bg-color: #FFFDF0;--primary-color: #12372A;--accent-color: #436850;--card-bg: #FFFFFF;--text-main: #12372A;--text-muted: #527853;--border-radius: 16px;--shadow: 0 12px 32px rgba(18, 55, 42, 0.08)}
+* {box-sizing: border-box;margin: 0;padding: 0}
+body {background-color: var(--bg-color);color: var(--text-main);font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;line-height: 1.6;padding: 0}
+main {max-width: 1200px;margin: 0 auto;padding: 40px 24px}
+.hero-section {display: grid;grid-template-columns: 280px 1fr;gap: 48px;align-items: start;margin-bottom: 80px}
+@media (max-width: 768px) {
+  .hero-section {grid-template-columns: 1fr;gap: 32px}
+}
+.hero-left {position: sticky;top: 40px}
+.brand-title {font-size: 3.5rem;font-weight: 800;letter-spacing: -1px;margin-bottom: 16px;color: var(--primary-color)}
+.hero-subtitle {font-size: 1.1rem;color: var(--text-muted);margin-bottom: 32px}
+.anchor-nav {display: flex;flex-direction: column;gap: 12px}
+.anchor-link {text-decoration: none;color: var(--primary-color);font-weight: 600;font-size: 0.95rem;padding: 8px 12px;border-radius: 8px;transition: background 0.2s}
+.anchor-link:hover {background-color: rgba(67, 104, 80, 0.1)}
+.hero-right {padding-left: 24px;border-left: 2px solid rgba(18, 55, 42, 0.1)}
+@media (max-width: 768px) {
+  .hero-right {padding-left: 0;border-left: none;border-top: 2px solid rgba(18, 55, 42, 0.1);padding-top: 24px}
+}
+.hero-headline {font-size: 2.2rem;font-weight: 700;margin-bottom: 24px;line-height: 1.3}
+.hero-desc {font-size: 1.1rem;color: var(--text-muted);margin-bottom: 32px}
+.section {margin-bottom: 80px}
+.section-title {font-size: 1.8rem;font-weight: 700;margin-bottom: 32px;color: var(--primary-color)}
+.plans-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));gap: 24px}
+.plan-card {background: var(--card-bg);border-radius: var(--border-radius);padding: 32px;box-shadow: var(--shadow);position: relative;display: flex;flex-direction: column;justify-content: space-between}
+.plan-card.featured {border: 2px solid var(--accent-color)}
+.badge {position: absolute;top: -12px;right: 24px;background: var(--accent-color);color: var(--bg-color);font-size: 0.75rem;font-weight: 700;padding: 4px 12px;border-radius: 20px;text-transform: uppercase}
+.plan-name {font-size: 1.25rem;font-weight: 700;margin-bottom: 8px}
+.plan-price {font-size: 2rem;font-weight: 800;color: var(--primary-color);margin-bottom: 4px}
+.plan-annual {font-size: 0.85rem;color: var(--text-muted);margin-bottom: 24px}
+.plan-features {list-style: none;margin-bottom: 32px}
+.plan-features li {font-size: 0.95rem;padding: 8px 0;border-bottom: 1px solid rgba(18, 55, 42, 0.05);color: var(--text-main)}
+.plan-features li:last-child {border-bottom: none}
+.btn {display: block;width: 100%;text-align: center;background: var(--primary-color);color: var(--bg-color);padding: 12px 24px;border-radius: 8px;text-decoration: none;font-weight: 650;transition: opacity 0.2s}
+.btn:hover {opacity: 0.9}
+.features-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));gap: 24px}
+.feature-card {background: var(--card-bg);padding: 24px;border-radius: var(--border-radius);box-shadow: var(--shadow)}
+.feature-card h3 {font-size: 1.1rem;margin-bottom: 12px;color: var(--primary-color)}
+.feature-card p {color: var(--text-muted);font-size: 0.95rem}
+.faq-container {display: flex;flex-direction: column;gap: 20px}
+.chat-bubble {background: var(--card-bg);padding: 20px 24px;border-radius: var(--border-radius);box-shadow: var(--shadow);max-width: 80%}
+.chat-bubble.question {align-self: flex-start;border-bottom-left-radius: 4px}
+.chat-bubble.answer {align-self: flex-end;background: var(--primary-color);color: var(--bg-color);border-bottom-right-radius: 4px}
+.chat-bubble h4 {font-size: 1rem;margin-bottom: 8px;font-weight: 700}
+.chat-bubble p {font-size: 0.95rem}
+footer {text-align: center;padding: 40px 0;color: var(--text-muted);font-size: 0.85rem;border-top: 1px solid rgba(18, 55, 42, 0.1);margin-top: 80px}
+</style><main>
+  <section class="hero-section">
+    <div class="hero-left">
+      <h1 class="brand-title">AA</h1>
+      <p class="hero-subtitle">稳定连接，自由访问。</p>
+      <nav class="anchor-nav">
+        <a class="anchor-link" href="#plans">服务套餐</a>
+        <a class="anchor-link" href="#features">核心优势</a>
+        <a class="anchor-link" href="#faq">常见问题</a>
+      </nav>
+    </div>
+    <div class="hero-right">
+      <h2 class="hero-headline">现代网络代理与连接管理服务方案</h2>
+      <p class="hero-desc">AA 致力于为注重效率与安全的用户提供高品质的节点中转与加速服务。清晰的架构，极简的交互，保障每一次数据传输顺畅无阻。</p>
+      <a href="#plans" class="btn">查看可用套餐</a>
+    </div>
+  </section>
+
+  <section id="plans" class="section">
+    <h2 class="section-title">灵活的套餐选择</h2>
+    <div class="plans-grid">
+      <div class="plan-card">
+        <div>
+          <h3 class="plan-name">基础版</h3>
+          <div class="plan-price">¥15/月</div>
+          <div class="plan-annual">按年付仅需 ¥150/年</div>
+          <ul class="plan-features">
+            <li>每月 100GB 极速流量</li>
+            <li>支持 3 台设备同时在线</li>
+            <li>解锁基础流媒体</li>
+            <li>普通线路节点池</li>
+          </ul>
+        </div>
+        <a href="#" class="btn">立即订阅</a>
+      </div>
+      <div class="plan-card featured">
+        <div class="badge">推荐</div>
+        <div>
+          <h3 class="plan-name">旗舰版</h3>
+          <div class="plan-price">¥35/月</div>
+          <div class="plan-annual">按年付仅需 ¥350/年</div>
+          <ul class="plan-features">
+            <li>每月 300GB 极速流量</li>
+            <li>支持 5 台设备同时在线</li>
+            <li>全节点原生流媒体解锁</li>
+            <li>IPLC 专线游戏加速优化</li>
+            <li>7x24 优先工单支持</li>
+          </ul>
+        </div>
+        <a href="#" class="btn">立即订阅</a>
+      </div>
+      <div class="plan-card">
+        <div>
+          <h3 class="plan-name">团队版</h3>
+          <div class="plan-price">¥85/月</div>
+          <div class="plan-annual">按年付仅需 ¥850/年</div>
+          <ul class="plan-features">
+            <li>每月 1000GB 极速流量</li>
+            <li>支持 20 台设备同时在线</li>
+            <li>VIP 专属高带宽节点</li>
+            <li>支持企业定制路由</li>
+            <li>专属客户经理服务</li>
+          </ul>
+        </div>
+        <a href="#" class="btn">立即订阅</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <h2 class="section-title">核心技术特性</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>多端兼容</h3>
+        <p>全面适配主流操作系统与各类第三方客户端，配置简便，一键导入。</p>
+      </div>
+      <div class="feature-card">
+        <h3>优质线路</h3>
+        <p>精选骨干网直连与专线节点，降低延迟，保障高负载下的稳定性。</p>
+      </div>
+      <div class="feature-card">
+        <h3>安全加密</h3>
+        <p>采用高强度传输加密协议，有效防止隐私泄露，确保通信安全。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section">
+    <h2 class="section-title">常见问题解答</h2>
+    <div class="faq-container">
+      <div class="chat-bubble question">
+        <h4>如何开始使用 AA 的服务？</h4>
+        <p>注册账户后，选择适合您的套餐并完成订购，随后在后台获取订阅链接并导入至您常用的客户端即可。</p>
+      </div>
+      <div class="chat-bubble answer">
+        <h4>支持在多少台设备上同时使用？</h4>
+        <p>设备在线数量根据您所选的套餐而定。基础版支持 3 台，旗舰版支持 5 台，团队版支持 20 台设备同时在线。</p>
+      </div>
+      <div class="chat-bubble question">
+        <h4>流量额度是如何计算与重置的？</h4>
+        <p>所有套餐的流量均按自然月度周期进行重置，未使用完的流量不累积到下一个计费周期。</p>
+      </div>
+      <div class="chat-bubble answer">
+        <h4>遇到连接异常或节点超时怎么办？</h4>
+        <p>请先尝试更新订阅链接以获取最新可用节点。若问题依旧，可随时通过用户后台提交工单联系技术支持。</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 AA. All rights reserved.</p>
+  </footer>
+</main><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
